@@ -53,12 +53,12 @@
 
 	.section .heading .heading-bottom{ margin-top: 10px; }
 
-
+    .main-slider{ height: 28%;}
 	/* ---------------------------------
 	3. MENU
 	--------------------------------- */
 
-	header{ top: 0; border-bottom: 1px solid rgba(255,255,255, .1); }
+	header{ top: 0; border-bottom: 0px solid rgba(255,255,255, .1); }
 
 	header .logo{ margin: 10px 0; height: 40px; }
 
