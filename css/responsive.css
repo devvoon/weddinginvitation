@@ -5,6 +5,7 @@
 @media only screen and (max-width: 1200px) {
 
 
+        .main-slider{ height: 45vh; }
 }
 
 /* Screens Resolution : 992px
@@ -23,7 +24,8 @@
 	3. MENU
 	--------------------------------- */
 
-
+    .main-slider{ height: 80vh;  position: relative;
+        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
 }
 
 
@@ -43,17 +45,19 @@
 	h4{ font-size: 1.5em; }
 	h5{ font-size: 1.2em; }
 
+    .main-slider{ height: 165vh;  position: relative;
+        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
+
 	/* ---------------------------------
 	2. COMMONS FOR PAGE DESIGN
 	--------------------------------- */
 
-	.section{ padding: 50px 0 20px; }
+	.section{ padding: 50x 0 20px; }
 
 	.section .heading{ padding-bottom: 20px; }
 
 	.section .heading .heading-bottom{ margin-top: 10px; }
 
-    .main-slider{ height: 28%;}
 	/* ---------------------------------
 	3. MENU
 	--------------------------------- */
@@ -138,6 +142,7 @@
 
 }
 
+
 /* Screens Resolution : 479px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 479px) {
@@ -148,21 +153,41 @@
 
 	body{ font-size: 14px;  }
 
+    .main-slider{ height: 80vh; position: relative;
+        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
 
 
+}
+/* Screens Resolution : 414px iphone plus
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 414px) {
+
+    .main-slider{ height: 60vh; position: relative;
+        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
+
+}
+
+/* Screens Resolution : 375px iphone
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 375px) {
+
+    .main-slider{ height: 50%; 
+        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
 
 }
 
 /* Screens Resolution : 359px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 359px) {
+@media only screen and (max-width: 360px) {
 
-
+    .main-slider{ height: 60vh; position: relative;
+        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
 }
 
 /* Screens Resolution : 290px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 290px) {
+@media only screen and (max-width: 320px) {
 
-
+    .main-slider{ height: 60vh; position: relative;
+        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
 }

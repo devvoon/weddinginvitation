@@ -249,7 +249,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 100vh; position: relative;
-	background-image: url(../images/slider-1-1600x900.jpg); background-size: cover; color: #000; }
+	background-image: url(../images/slider-1-1600x900.jpg); background-size: cover; color: #000;}
 
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -333,7 +333,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .ceremony-area .desc{ margin-bottom: 15px; color: #fff;  }
 
-.ceremony-area .map-area{ position: relative; top: 0; left: 0; bottom: 0; right: 0;}
+.ceremony-area .map-area{ width: 100%;  position: center; top: 0; left: 0; bottom: 0; right: 0;}
 
 /* ---------------------------------
 9. CONTACT AREA
@@ -343,7 +343,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .contact-area .contact-wrapper{ width: 100%; }
 
-.contact-area .map-area{ width: 100%; position: center; top: 0; bottom: 0; right: 0;}
+.contact-area .map-area{ width: 100%; position: center; top: 0; bottom: 0; right: 0; left: 5;}
 
 .contact-area .phone{ margin: 10px 0; font-size: 2em; color: #5ABFB5; }
 
