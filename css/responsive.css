@@ -171,7 +171,7 @@
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 375px) {
 
-    .main-slider{ height: 50%; 
+    .main-slider{ height: 60%; 
         background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
 
 }

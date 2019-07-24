@@ -175,7 +175,9 @@
     						<h2 class="title">Location</h2>
     						<span class="heading-bottom"><i class="icon icon-star"></i></span>
     					</div>
-
+                    </div><!-- col-sm-12 -->
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
                         <div class="ceremony margin-bottom">
                             <h6 class="margin-top-btm">서울 종로구 종로1길 50 (지번) 중학동 19</h6>
                             <h6 class="margin-top-btm">더 케이 트윈타워A동 LL층</h6>
@@ -184,34 +186,35 @@
                             <h6 class="margin-top-btm"></h6></br>
                             <h5 class="margin-top-btm">2019년 9월 1일 일요일 오후 3시 30분</h5>
                         </div><!-- margin-bottom -->
+                    </div>
+
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-6">
                         <div class="map-area">
-        				        <div class="col-sm-4"></div>
-		                         <div class="col-sm-6">
-                                    <div id="map">
-                                        <!--
-                                            * 카카오맵 - 약도서비스
-                                            * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
-                                            * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
-                                        -->
-                                        <!-- 1. 약도 노드 -->
-                                        <div id="daumRoughmapContainer1563290652743" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                            <div id="map">
+                                <!--
+                                    * 카카오맵 - 약도서비스
+                                    * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+                                    * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+                                -->
+                                <!-- 1. 약도 노드 -->
+                                <div id="daumRoughmapContainer1563290652743" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
-                                        <!-- 2. 설치 스크립트 -->
-                                        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                                <!-- 2. 설치 스크립트 -->
+                                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-                                        <!-- 3. 실행 스크립트 -->
-                                        <script charset="UTF-8">
-                                            new daum.roughmap.Lander({
-                                                "timestamp" : "1563290652743",
-                                                "key" : "udqw",
-                                                "mapWidth" : "320",
-                                                "mapHeight" : "240"
-                                            }).render();
-                                        </script>
-                                    </div>
-                                </div>
-                        </div><!-- map-area -->
-                    </div><!-- col-sm-12 -->
+                                <!-- 3. 실행 스크립트 -->
+                                <script charset="UTF-8">
+                                    new daum.roughmap.Lander({
+                                        "timestamp" : "1563290652743",
+                                        "key" : "udqw",
+                                        "mapWidth" : "320",
+                                        "mapHeight" : "240"
+                                    }).render();
+                                </script>
+                            </div>
+                        </div>
+                    </div><!-- map-area -->
                 </div><!-- row -->
             </div><!-- container -->
     </section><!-- section -->
