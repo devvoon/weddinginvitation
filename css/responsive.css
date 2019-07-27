@@ -156,6 +156,13 @@
     .main-slider{ height: 80vh; position: relative;
         background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
 
+    .image-gallery .thumbnail-images{
+        width: 30%;
+        height: 30%;
+        background-position: top;
+        margin-top: 0;
+        margin-bottom: 1;
+    }
 
 }
 /* Screens Resolution : 414px iphone plus
@@ -171,7 +178,7 @@
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 375px) {
 
-    .main-slider{ height: 60%; 
+    .main-slider{ height: 60% position: relative;;
         background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
 
 }

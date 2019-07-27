@@ -17,9 +17,8 @@
 	<link href="common-css/font-icon.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
-
-
-
+    <link href="common-css/swiper.css" rel="stylesheet">
+    <script type="text/javascript" src="common-js/skin.js"></script>
 </head>
 <body>
 
@@ -105,42 +104,48 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-sm-12">
+				<div class="col-xs-12 col-sm-12">
 
 					<div class="heading">
 						<h2 class="title">Gallery</h2>
 						<span class="heading-bottom"><i class="icon icon-star"></i></span>
 					</div>
-
+				</div><!-- col-sm-10 -->
+                <div class="col-xs-1" >
 					<div class="image-gallery">
 						<div class="row">
 
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
+                            <!--
+                            <div class="thumbnail col-xs-6 col-sm-4" data-fluidbox style="background-image:url('images/gallery-1-600x400.jpg')">
+                                <a href="images/gallery-1-600x400.jpg" data-fluidbox></a>
+							</div>--><!-- col-sm-4 -->
+
+                            <div class="col-xs-1 col-sm-4" >
+								<a href="images/gallery-1-600x400.jpg"  data-fluidbox><img class="thumbnail-images margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-2-600x400.jpg" alt="Gallery Image"></a>
+							<div class="col-xs-1 col-sm-4">
+								<a href="images/gallery-2-600x400.jpg"  data-fluidbox><img class="thumbnail-images margin-bottom" src="images/gallery-2-600x400.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-3-600x400.jpg" alt="Gallery Image"></a>
+							<div class="col-xs-1 col-sm-4">
+								<a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="thumbnail-images margin-bottom" src="images/gallery-3-600x400.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-4-600x400.jpg" alt="Gallery Image"></a>
+							<div class="col-xs-1 col-sm-4">
+								<a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="thumbnail-images margin-bottom" src="images/gallery-4-600x400.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-5-600x400.jpg" alt="Gallery Image"></a>
+							<div class="col-xs-1 col-sm-4">
+								<a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="thumbnail-images margin-bottom" src="images/gallery-5-600x400.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-6-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-6-600x400.jpg" alt="Gallery Image"></a>
+							<div class="col-xs-1 col-sm-4">
+								<a href="images/gallery-6-600x400.jpg" data-fluidbox><img class="thumbnail-images margin-bottom" src="images/gallery-6-600x400.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 
-                            <div class="col-md-4 col-sm-6">
-								<a href="images/gallery-7-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-7-600x400.jpg" alt="Gallery Image"></a>
+                            <div class="col-xs-1 col-sm-4">
+								<a href="images/gallery-7-600x400.jpg" data-fluidbox><img class="thumbnail-images margin-bottom" src="images/gallery-7-600x400.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 
 						</div><!-- row -->
@@ -151,8 +156,6 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- section -->
-
-
 
     <div id="location"></div>
     <section class="section ceremony-area center-text">
@@ -239,5 +242,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="common-js/jquery.countdown.min.js"></script>
 	<script src="common-js/jquery.fluidbox.min.js"></script>
 	<script src="common-js/scripts.js"></script>
+
+
 </body>
 </html>
