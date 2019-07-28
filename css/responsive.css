@@ -45,8 +45,8 @@
 	h4{ font-size: 1.5em; }
 	h5{ font-size: 1.2em; }
 
-    .main-slider{ height: 165vh;  position: relative;
-        background-image: url(../images/slider-2-820x900.jpg); background-size: cover; color: #000;}
+    .main-slider{ height: 100vh;  position: relative;
+        background-image: url(../images/slider-3-675x1200.jpg); background-size: cover; color: #000;}
 
 	/* ---------------------------------
 	2. COMMONS FOR PAGE DESIGN
@@ -153,10 +153,11 @@
 
 	body{ font-size: 14px;  }
 
-    .main-slider{ height: 100%; position: relative;
+    .main-slider{ height: 100vh; position: relative;
         background-image: url(../images/slider-3-675x1200.jpg); background-size: cover; color: #000;}
 
 }
+
 /* Screens Resolution : 414px iphone plus
 -------------------------------------------------------------------------- */
 /*
