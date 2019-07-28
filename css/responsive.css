@@ -159,21 +159,25 @@
 }
 /* Screens Resolution : 414px iphone plus
 -------------------------------------------------------------------------- */
+/*
 @media only screen and (max-width: 414px) {
 
     .main-slider{ height: 100%; position: relative;
         background-image: url(../images/slider-3-675x1200.jpg); background-size: cover; color: #000;}
 
 }
+*/
 
 /* Screens Resolution : 375px iphone
 -------------------------------------------------------------------------- */
+/*
 @media only screen and (max-width: 375px) {
 
     .main-slider{ height: 100% position: relative;;
         background-image: url(../images/slider-3-675x1200.jpg); background-size: cover; color: #000;}
 
 }
+*/
 
 /* Screens Resolution : 359px
 -------------------------------------------------------------------------- */
