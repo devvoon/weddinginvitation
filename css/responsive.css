@@ -154,7 +154,7 @@
 	body{ font-size: 14px;  }
 
     .main-slider{ height: 80vh; position: relative;
-        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
+        background-image: url(../images/slider-3-768x1045.jpg); background-size: cover; color: #000;}
 
 }
 /* Screens Resolution : 414px iphone plus
@@ -162,7 +162,7 @@
 @media only screen and (max-width: 414px) {
 
     .main-slider{ height: 60vh; position: relative;
-        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
+        background-image: url(../images/slider-3-768x1045.jpg); background-size: cover; color: #000;}
 
 }
 
@@ -171,7 +171,7 @@
 @media only screen and (max-width: 375px) {
 
     .main-slider{ height: 60% position: relative;;
-        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
+        background-image: url(../images/slider-3-768x1045.jpg); background-size: cover; color: #000;}
 
 }
 
@@ -180,7 +180,7 @@
 @media only screen and (max-width: 360px) {
 
     .main-slider{ height: 60vh; position: relative;
-        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
+        background-image: url(../images/slider-3-768x1045.jpg); background-size: cover; color: #000;}
 }
 
 /* Screens Resolution : 290px
@@ -188,5 +188,5 @@
 @media only screen and (max-width: 320px) {
 
     .main-slider{ height: 60vh; position: relative;
-        background-image: url(../images/slider-1-820x900.jpg); background-size: cover; color: #000;}
+        background-image: url(../images/slider-3-768x1045.jpg); background-size: cover; color: #000;}
 }
