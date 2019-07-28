@@ -349,7 +349,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .ceremony-area .desc{ margin-bottom: 15px; color: #fff;  }
 
-.ceremony-area .map-area{ width: 100%;  position: center; top: 0; left: 0; bottom: 0; right: 0;}
+.ceremony-area .map-area{ width: 100%;  position: center; top: 0; left: 0; bottom: 0; right: 0; margin-left: 12px}
 
 /* ---------------------------------
 9. CONTACT AREA
