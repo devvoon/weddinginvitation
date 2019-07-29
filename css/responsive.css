@@ -24,7 +24,7 @@
 	3. MENU
 	--------------------------------- */
 
-    .main-slider{ height: 80vh;  position: relative;
+    .main-slider{ height: 100vh;  position: relative;
         background-image: url(../images/slider-2-820x900.jpg); background-size: cover; color: #000;}
 }
 
